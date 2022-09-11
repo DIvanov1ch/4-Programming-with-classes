@@ -1,7 +1,5 @@
 package by.epam.trukhanovich.programming.simple_class03;
 
-import java.util.Arrays;
-
 /*
  (4). Programming with classes
  Простейшие классы и объекты
@@ -10,7 +8,7 @@ import java.util.Arrays;
  студентов, имеющих оценки, равные только 9 или 10.
 */
 
-public class MainSimpleClass3 {
+public class StudentDemo {
 
     public static void main(String[] args) {
 

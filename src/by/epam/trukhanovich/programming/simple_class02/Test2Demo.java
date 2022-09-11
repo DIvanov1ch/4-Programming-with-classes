@@ -1,6 +1,6 @@
 package by.epam.trukhanovich.programming.simple_class02;
 
-public class MainSimpleClass2 {
+public class Test2Demo {
 
     public static void main(String[] args) {
 
