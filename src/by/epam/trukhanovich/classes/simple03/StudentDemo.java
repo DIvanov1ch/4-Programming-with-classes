@@ -1,4 +1,4 @@
-package by.epam.trukhanovich.programming.simple_class03;
+package by.epam.trukhanovich.classes.simple03;
 
 /*
  (4). Programming with classes

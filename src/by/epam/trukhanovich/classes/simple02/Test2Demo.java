@@ -1,4 +1,4 @@
-package by.epam.trukhanovich.programming.simple_class02;
+package by.epam.trukhanovich.classes.simple02;
 
 public class Test2Demo {
 
