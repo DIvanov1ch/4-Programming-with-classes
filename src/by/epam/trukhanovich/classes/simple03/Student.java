@@ -18,37 +18,20 @@ public class Student {
     private final static int NUMBER_OF_EXAMS = 5;
 
     public Student(String name, String groupNumber, int[] progress) {
-        if (name == null || groupNumber == null || progress == null) {
-            throw new IllegalArgumentException("Incorrect information");
-        }
-        if (name.isBlank() || groupNumber.isBlank()) {
-            throw new IllegalArgumentException("Name or number of a group must not be empty");
-        }
-
         this.name = name;
         this.groupNumber = groupNumber;
         this.progress = Arrays.copyOf(progress, NUMBER_OF_EXAMS);
     }
 
     public void setGroupNumber(String groupNumber) {
-        if (groupNumber == null || groupNumber.isBlank()) {
-            throw new IllegalArgumentException();
-        }
         this.groupNumber = groupNumber;
     }
 
     public void setProgress(int[] progress) {
-        if (progress == null || progress.length == 0) {
-            throw new IllegalArgumentException();
-        }
         this.progress = Arrays.copyOf(progress, NUMBER_OF_EXAMS);
     }
 
     public int[] getProgress() {
-        if (progress.length == 0) {
-            System.out.println("Данные отсутствуют");
-            this.progress = new int[NUMBER_OF_EXAMS];
-        }
         return progress;
     }
 
